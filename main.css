@@ -392,6 +392,7 @@
    width: 100%;
    height: 4em; 
    backdrop-filter: blur(10px);
+   z-index: 999999;
 }
 .header_wrap{
    height: 4em;
