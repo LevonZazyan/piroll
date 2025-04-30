@@ -493,3 +493,60 @@
 .review_arrow_right {
  right: 0;
 }
+.sponsors {
+  padding: 80px 0;
+}
+.sponsors_wrap {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: stretch;
+  flex-wrap: wrap;
+  gap: 3em;
+}
+.sponsors_logo {
+  width: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center
+}
+.sponsors_logo>img {
+  width: 100%;
+}
+.project{
+ padding: 50px 0;
+ background: var(--color-grey-5);
+}
+.project_wrap{
+ text-align: center;
+ display: flex;
+ flex-direction: column;
+ gap: 2em;
+}
+.project_heading{
+
+}
+.project_form {
+ display: grid;
+ grid-template-columns: repeat(2 , 1fr);
+ grid-template-rows: (1fr 1fr 4fr 1fr);
+}
+.project_input {
+  padding: 8px 13px;
+  border-radius: 4px;
+  border: 1px solid var(--color-grey-3);
+}
+.project_input_name {
+
+}
+.project_input_email {
+
+}
+.project_input_title {
+
+}
+.project_input_text {
+
+}
+.project_button {
+
+}
