@@ -577,4 +577,46 @@ transition: 0.3;
 .project_button:active {
 background: var(--color-accent-active);
 transition: 0.3;
+ text-align: center;
+ display: flex;
+ flex-direction: column;
+ gap: 2em;
+}
+.project_form {
+  display: grid;
+  grid-template-columns: repeat(2 , 1fr);
+  grid-template-rows: (1fr 1fr 4fr 1fr);
+  grid-template-areas: 
+    "name email"
+    "title title"
+    "text text"
+    "button button";
+    gap: 1em;
+}
+.project_input_name {
+  grid-area: name;
+}
+.project_input_email {
+  grid-area: email;
+}
+.project_input_title {
+  grid-area: title;
+}
+.project_input_text {
+  grid-area: text;
+}
+.project_button {
+  grid-area: button;
+  background: var(--color-accent);
+  color: var(--color-white);
+  border-radius: 4px;
+  padding: 8px 32px;
+  justify-self: center;
+  cursor: pointer;
+}
+.project_button:hover {
+  background: var(--color-accent-hover);
+}
+.project_button:active {
+  background: var(--color-accent-active);
 }
